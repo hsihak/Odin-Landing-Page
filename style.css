@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Common Container */
+
+.container {
+    margin: 0 auto;
+    max-width: 67.5rem; /* 1080px */
+}
+
+/* Home Section */
+
+main,
+.hero {
+    background-color: #1F2937;
+}
+
+/* Navigation Components */
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo h1 {
+    font-size: 24px; 
+    color: #F9FAF8;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+    gap: 3.5em;
+}
+
+.nav-items a {
+    font-size: 18px; 
+    margin: 20px 0;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+/* Hero Container */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0;
+}
+
+/* Hero Components */
+
+.hero-content {
+    max-width: 32em;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#hero-btn {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 8px 36px;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.hero-media {
+    background-color: rgba(144, 144, 144, 0.6);
+    width: 32em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-media p {
+    color: #e0e0e0;
+}
