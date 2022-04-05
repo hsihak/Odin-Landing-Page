@@ -132,3 +132,26 @@ main,
     padding-bottom: 1rem;
 }
 
+/* Quote Section */
+#quote {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 80px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote h3 {
+    font-size: 24px;
+    align-self: flex-end;
+    padding-top: 1rem;
+}
